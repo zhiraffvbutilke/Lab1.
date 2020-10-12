@@ -1,0 +1,8 @@
+VAR
+	speed : {REDUND_UNREPLICABLE} REAL := 0.0;
+	enable : {REDUND_UNREPLICABLE} BOOL := FALSE;
+	FB_Integrator_var : {REDUND_UNREPLICABLE} FB_Integrator := (0);
+	FBMotor_var : {REDUND_UNREPLICABLE} FBMotor := (0);
+	FB_Regulator_var : {REDUND_UNREPLICABLE} FB_Regulator := (0);
+	cnt : USINT := 0;
+END_VAR
